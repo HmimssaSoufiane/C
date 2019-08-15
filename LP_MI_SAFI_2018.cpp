@@ -18,7 +18,19 @@
  }
  
 
-
+//Q2
+void supprmer_zeros(char s[]){
+   	int i,c=0;
+	char s[Max];
+  	while(s[0] == 48){
+  	   c++;
+	  	  for(i=0;i<l-c;i++){
+	  	  	s[i] = s[i+1];	
+	  	  }	  
+	 		
+  }
+    printf("\n %s",s);
+}
 //Q2
  void supprimer_zero(char S[]){
  	
